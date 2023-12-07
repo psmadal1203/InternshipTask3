@@ -18,7 +18,7 @@ Steps Taken:
 
 3. Created a Histogram:
     # Create a histogram using Seaborn
-      plt.figure(figsize=(10, 6))
+      # plt.figure(figsize=(10, 6))
       sns.histplot(data=iris_data, x='sepal_length', bins=20, kde=True, color='skyblue')
       plt.title('Distribution of Sepal Length in Iris Dataset')
       plt.xlabel('Sepal Length (cm)')
